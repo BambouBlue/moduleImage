@@ -7,11 +7,11 @@
 
 class Pixel{
     private:
-        int r,g,b;
+        int r;
+        int g;
+        int b;
     public:
-        Pixel (){
-        r=g=b=0;
-        }
+        Pixel ()
 
         ~Pixel ()
 
