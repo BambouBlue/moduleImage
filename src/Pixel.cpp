@@ -2,21 +2,23 @@
 #include <Pixel.h>
 using namespace std;
 
-namespace Pixel{
+Pixel::Pixel()
+    :r(0),g(0),b(0){
+}
 
-    int getRouge(){
-        return r;
-    }
+int Pixel::getRouge(){
+    return r;
+}
 
-    int getVert(){
-        return g;
-    }
+int Pixel::getVert(){
+    return g;
+}
 
-    int getBleu(){
-        return b;
-    }
+int Pixel::getBleu(){
+     return b;
+}
 
-};
+
 
 int main ()
 {
